@@ -47,8 +47,16 @@
     margin-right:40px;
  }
  /*body stuff*/
- div{
+.purple {
     background-color: #4A2040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+ }
+
+ .intro {
+    max-width: 700px;
  }
  h2{
     font-family: Jomhuria;
@@ -56,6 +64,10 @@
     font-weight: 400;
     font-size: 152px;
     color: #FDF2ED;
+ }
+ main h1 {
+    text-align: right;
+    padding-right: 40px;
  }
  main p{
     font-family: Outfit;
