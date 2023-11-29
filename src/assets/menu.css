@@ -1,11 +1,18 @@
 :root {
-    --header-height: 130px;
-    --menu-bg: #9ae9cf;
+    --header-height: 120px;
+    --menu-bg: #C2714F;
 }
 
 body {
     position: relative;
     margin: 0;
+}
+
+.right {
+    background: transparent;
+}
+header a {
+text-decoration: none;
 }
 
 header {
@@ -21,8 +28,8 @@ header {
     background: var(--menu-bg);
 }
 
-header img {
-    padding: 20px;
+header svg {
+    fill: #FDF2ED;
 }
 
 nav {
