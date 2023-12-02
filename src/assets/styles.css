@@ -58,12 +58,14 @@
  .intro {
     max-width: 2000px;
     text-align: left;
+    text-indent: 1em;
     font-family: Outfit;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     color: #FDF2ED;
     margin-bottom: 1em;
+    
    }
  h2{
     font-family: Jomhuria;
@@ -88,6 +90,7 @@
     font-style: normal;
     font-weight: 400;
     color: #FDF2ED;
+    text-indent: 1em;
     max-width: 800px;
     margin-bottom: 1em;
  }
