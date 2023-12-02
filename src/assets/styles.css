@@ -190,7 +190,11 @@
   /* stitches */
  
  /*supplies*/
- 
+ .supplies img{
+   max-width: 400px;
+   margin-top: 30px;
+   margin-bottom: 40px;
+ }
  /*patterns*/
 
  /*media queries*/
