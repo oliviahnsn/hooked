@@ -59,7 +59,7 @@
     max-width: 2000px;
     text-align: left;
     font-family: Outfit;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     color: #FDF2ED;
@@ -115,6 +115,7 @@
  iframe{
     margin: 100px;
  }
+
  /*footer*/
  footer{
     background-color: #C2714F;
