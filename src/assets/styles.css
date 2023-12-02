@@ -21,7 +21,7 @@
  }
  header h1{
      color: #FDF2ED;
-     font-family: Jomhuria;
+     font-family: Jomhuria, serif;
      font-size: 64px;
      font-style: normal;
      font-weight: 400;
@@ -38,7 +38,7 @@
  /*nav*/
  nav a {
     color: #FDF2ED;
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +59,7 @@
     max-width: 2000px;
     text-align: left;
     text-indent: 1em;
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -68,7 +68,7 @@
     
    }
  h2{
-    font-family: Jomhuria;
+    font-family: Jomhuria, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 152px;
@@ -79,13 +79,13 @@
     text-align: right;
     padding-right: 40px;
     color: #4A2040;
-    font-family: Jomhuria;
+    font-family: Jomhuria, serif;
     font-size: 250px;
     font-style: normal;
     font-weight: 400;
  }
  main p{
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +95,7 @@
     margin-bottom: 1em;
  }
  ul{
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -107,14 +107,31 @@
     display: list-item;
     margin-bottom: 1em;
  }
-
- main a{
-    font-family: Outfit;
+ p a{
+   font-family: Outfit, sans-serif;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   color: #F6C5AF;
+   text-decoration: none;
+}
+  li a{
+    font-family: Outfit, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     color:#F6C5AF;
+    text-decoration: none;
  }
+ h2 a{
+   font-family: Jomhuria, serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 152px;
+   color: #FDF2ED;
+   margin-top: 0.25em;
+   text-decoration: underline;
+}
  iframe{
     margin: 100px;
  }
@@ -124,7 +141,7 @@
     background-color: #C2714F;
     padding: 5px;
     color:#FDF2ED;
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     font-size: 12px;
     text-align: center;
  }
@@ -132,7 +149,7 @@
     background-color: #4A2040;
     padding: 5px;
     color:#FDF2ED;
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
     font-size: 12px;
     text-align: center;
   }
@@ -156,17 +173,18 @@
   
   .home main h1 {
      color: #4A2040;
-     font-family: Jomhuria;
-     font-size: 152px;
+     font-family: Jomhuria, serif;
+     font-size: 175px;
      font-style: normal;
      font-weight: 400;
      max-width: 606px;
      width: 50%;
      line-height: .5;
+     text-align: left;
   }
   .home main h2 {
      color: #4A2040;
-     font-family: Outfit;
+     font-family: Outfit, sans-serif;
      font-size: 40px;
      font-style: normal;
      font-weight: 400;
@@ -199,6 +217,20 @@
    margin-bottom: 40px;
  }
  /*patterns*/
+ .patterns img{
+   max-width: 800px;
+   margin-bottom: 50px;
+ }
+
+ h2 a{
+   font-family: Jomhuria, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 152px;
+    color: #FDF2ED;
+    text-decoration: underline;
+    margin-top: 0.25em;
+ }
 
  /*media queries*/
  @media (min-width:640px){
@@ -211,12 +243,32 @@
        color:#F6C5AF;
        text-decoration:underline;
     }
-    main a{
+    p a{
        font-size: 30px;
        font-weight: 400;
     }
-    main a:hover, main a:focus{
+
+    p a:hover, p a:focus{
        color: #FDF2ED;
-       text-decoration:none;
+       text-decoration:underline;
     }
- }
+    li a{
+      font-size: 30px;
+      font-weight: 400;
+   }
+
+   li a:hover, p a:focus{
+      color: #FDF2ED;
+      text-decoration:underline;
+   }
+
+   h2 a{
+      font-family: Jomhuria, serif;
+      font-size: 152px;
+      color: #FDF2ED;
+   }
+
+   h2 a:hover, h2 a:focus{
+      color: #F6C5AF;
+      text-decoration:none;
+   }
