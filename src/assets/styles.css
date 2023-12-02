@@ -13,7 +13,7 @@
  #logo {
     background: transparent;
     display: flex;
-     align-items: flex-end;
+    align-items: flex-end;
  }
  
  header img{
@@ -56,18 +56,31 @@
  }
 
  .intro {
-    max-width: 700px;
- }
+    max-width: 2000px;
+    text-align: left;
+    font-family: Outfit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FDF2ED;
+    margin-bottom: 1em;
+   }
  h2{
     font-family: Jomhuria;
     font-style: normal;
     font-weight: 400;
     font-size: 152px;
     color: #FDF2ED;
+    margin-top: 0.25em;
  }
  main h1 {
     text-align: right;
     padding-right: 40px;
+    color: #4A2040;
+    font-family: Jomhuria;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 400;
  }
  main p{
     font-family: Outfit;
@@ -75,6 +88,8 @@
     font-style: normal;
     font-weight: 400;
     color: #FDF2ED;
+    max-width: 800px;
+    margin-bottom: 1em;
  }
  ul{
     font-family: Outfit;
@@ -82,18 +97,14 @@
     font-style: normal;
     font-weight: 400;
     color: #FDF2ED;
+    max-width: 700px;
  }
  li{
     list-style-type: square;
     display: list-item;
+    margin-bottom: 1em;
  }
- .intro{
-    font-family: Outfit;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    color: #FDF2ED
- }
+
  main a{
     font-family: Outfit;
     font-size: 30px;
@@ -176,46 +187,11 @@
     height: 100%;
   }
   /* stitches */
- .stitches main h1 { 
-    color: #4A2040;
-    font-family: Jomhuria;
-    font-size: 250px;
-    font-style: normal;
-    font-weight: 400;
-}
- 
- 
- .stitches p {
-    color:#FDF2ED;
-    font-family: Outfit;
-    font-weight: 400;
-    font-size: 24px;
- }
-
- div h2{
-    color: #FDF2ED;
-    font-family: Jomhuria;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
- }
  
  /*supplies*/
- .supplies main h1 { 
-    color: #4A2040;
-    font-family: Jomhuria;
-    font-size: 250px;
-    font-style: normal;
-    font-weight: 400;
- }
+ 
  /*patterns*/
- .patterns main h1 { 
-    color: #4A2040;
-    font-family: Jomhuria;
-    font-size: 250px;
-    font-style: normal;
-    font-weight: 400;
- }
+
  /*media queries*/
  @media (min-width:640px){
     nav a{
