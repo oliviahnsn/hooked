@@ -212,11 +212,7 @@
     height: 100%;
   }
   /* stitches */
-  
-  .video div{
-   margin-top:100px;
-   max-width: 560px;
-}
+
   iframe{
    max-width: 100vw;
    max-height: 56.25vw;
@@ -333,7 +329,6 @@
          font-size: 25px;
          display: list-item;   
          text-align: left;
-         justify-content: flex-start;
          max-width: 500px;
       }
 
